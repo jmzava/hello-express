@@ -14,7 +14,7 @@ server.on("error", error => console.log('error en servidor ' + error))
 //peticiones GET
 
 app.get('/', (req,res) => {
-    res.send( '<h1 style="color:blue"> Bienvenidos al servidor Express</h1>') // se muestra por navegador el SEND
+    res.send( '<h1 style="color:blue"> Bienvenidos al servidor Express online </h1>') // se muestra por navegador el SEND
 })
 
 let visitas = 0 
